@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>About | Jeremy Mckellar</title>
+	<title>Contact | Jeremy Mckellar</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="http://bootswatch.com/spacelab/bootstrap.min.css">
 </head>
 <body>
+
 	<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -16,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Jeremy Mckellar</a>
+      <a class="navbar-brand" href="index.html">Jeremy Mckellar</a>
     </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">About</a></li> 
@@ -27,16 +28,27 @@
   </div>
 </nav>
 
-
 	<main class="container">
 		<section class="main-section">
-			<h1>About Me</h1>
+			<h1>Contact</h1>
 
-			<img src="assets/images/_DSC1406.JPG" class="auth-image">
-
-			<p>Accomplished and energetic College Student with a solid history of achievement in customer and personal service skills. Motivated leader with strong organizational and prioritization abilities. Outstanding time management skills. Excellent communication skills with diverse populations. Solid analytical and critical observation ability, while also exhibiting really strong team work and collaboration skills. </p>
-
-			<p>Exemplary problem solving skills. Handles tasks with accuracy and efficiency. Track record of achieving exceptional results in working with Faculty and Staff at the University of North Carolina at Chapel Hill. Avid leaner of programming languages (Java, HTML, CSS), Windows Operating Systems, Microsoft Office Suite (Word, Power Point, Excel, Access), and Data analysis.</p>
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
 		</section>
 
@@ -45,8 +57,12 @@
 				<h2>Connect with Me</h2>
 
 				<img src="assets/images/_github.png" class="social" alt="Github">
-				<img src="assets/images/_linkedin.png" class="social" alt="LinkedIn">
-				<img src="assets/images/twitter.png" class="social" alt="Twitter">
+				<a href="https://www.linkedin.com/in/jeremy-mckellar-31325a67">
+					<img src="assets/images/_linkedin.png" class="social" alt="LinkedIn">
+				</a>
+				<a href="https://www.twitter.com/mckellarsview">
+					<img src="assets/images/twitter.png" class="social" alt="Twitter">
+				</a>
 			</div>
 		</section>
 	</main>

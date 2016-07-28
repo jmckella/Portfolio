@@ -254,9 +254,10 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px) {
-	#masthead {
+	#navbar {
 		position: static;
 		margin-bottom: 20px;
+        margin-top: 0px;
 	}
 	header .container {
 		padding: 0;
